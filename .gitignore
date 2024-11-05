@@ -1,0 +1,12 @@
+ Default ignored files
+/.idea/workspace.xml
+target/
+allure-results/
+**.DS_Store
+.idea
+output/
+reports/**
+
+**.html
+**.log
+**.7z

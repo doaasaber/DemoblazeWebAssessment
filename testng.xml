@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Assessment_Doaa">
+    <listeners>
+        <listener class-name="utilities.listeners.TestNGListener"/>
+    </listeners>
+    <test name="TasksRunner">
+        <classes>
+            <class name="utilities.extentreport.ExtentReport"/>
+            <class name="tests.signup.SignUpRunner"/>
+            <class name="tests.invalidsignup.InvalidSignUpRunner"/>
+            <class name="tests.addproductstocart.AddProductToCartRunner"/>
+
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
